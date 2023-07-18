@@ -38,14 +38,6 @@ body{
   }
 
 
-  
-  .footer-menu {
-    background-color: darkgray;
-    border: 2px dashed white;
-    
-   
-  }
-
 
 /* DEBUG */
 /* GENERAL */
@@ -268,7 +260,7 @@ body{
       max-width: 1400px;
       margin: 0 auto;
       height: 100%;
-      padding-top: 10px;
+      padding-top: 80px;
       padding-bottom: 30px;
     }
 
@@ -279,17 +271,23 @@ body{
     width: calc(70% / 4)
   }
 
-  .footer-social-links {
-    border: 10px dashed black;
-    height: 600px;
-    
-  }
 
   .footer-social-links>h4 {
     color: #7186d2;
+    font-size: 2.5rem;
+    padding: 20px 0 20px 0;
   }
 
+  .footer-social-links>img {
+    width:30px ;
+    vertical-align: middle;
+  }
 
+  .lang {
+    vertical-align: middle;
+    color: white;
+    vertical-align: middle;
+  }
 
 
 
@@ -298,7 +296,7 @@ body{
   }
   .footer-menu>ul>li>a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .footer-menu>ul {
     list-style: none;
@@ -336,5 +334,14 @@ body{
     padding: 10px 15px;
     background-color: #7186d2;
     color: white;
-  
+  }
+
+  .social-icons {  
+    font-size: 1.5rem;
+    padding:20px 0;
+  }
+
+  .fa-brands {
+    color: white;
+    padding-right: 20px;
   }
