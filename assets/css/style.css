@@ -48,7 +48,7 @@ body{
   .footer-menu {
     background-color: darkgray;
     border: 2px dashed white;
-    height: 600px;
+    
    
   }
 
@@ -266,12 +266,13 @@ body{
       font-size: 1.4rem;
       line-height: 1.5em;
     }
+   
     
     .bg-stars {
       text-align: center;
       background-image: url(../img/stars.svg);
       background-size: 100%;
-      background-position: ;
+      padding: 40px 55px 0 55px;
     }
     /* footer */
 
@@ -315,13 +316,16 @@ body{
   }
   .footer-menu>ul {
     list-style: none;
-    padding-top: 70px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     color: antiquewhite;
+  
 
   }
   .footer-menu>ul>li{
     padding: 20px 0;
   }
+
+  alig
