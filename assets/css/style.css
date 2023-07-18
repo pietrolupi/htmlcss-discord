@@ -11,25 +11,6 @@ body{
 
 /* DEBUG  */
 
- 
-
-  .container-header > div{
-    width: 25%;
-    
-  }
-  .container-header > nav {
-    width: 50%;  
-  }
-
-
-  .box-1 {
-    background-color: darkorchid;
-    border: 2px dashed black;
-    height: 420px;
-    width: 100%;
-    line-height: 420px;
-  }
-
   section:nth-child(2),
   section:nth-child(3),
   section:nth-child(4) {
@@ -106,6 +87,7 @@ main {
   }
  
 /* HEADER */
+
   header {
     display: flex;
     justify-content: center;
@@ -129,6 +111,13 @@ main {
     align-items: center;
   }
 
+  .container-header > div{
+    width: 25%;
+  }
+  .container-header > nav {
+    width: 50%;  
+  }
+  
   .logo-header>img {
     width: 130px;
     padding-top: 5px;
@@ -158,6 +147,22 @@ main {
     border-radius: 20px;
   }
 
+  .btn.big {
+    font-size: 1.55rem;
+    padding: 18px 27px;
+    border-radius: 45px;
+  }
+  .btn.big.white {
+    color: black;
+    background-color: white ;
+  }
+  .fa-down-long {
+    padding-right: 15px;
+  }
+  .btn.big.black {
+    color: white;
+    background-color: #23272a;
+  }
 /* MAIN */
     /* main general */
 
@@ -199,9 +204,25 @@ main {
     margin: 0 auto;
     height: 100%;
   }
-  
 
+  .box-1 {
+    text-align: center;
+    color: white;
+  }
 
+  .box-1>h1 {
+    font-size: 3.2rem;
+    padding-top: 30px;
+  }
+  .box-1>p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    padding-bottom: 50px; 
+  }
+
+  .box-1>a {
+    margin: 0 30px;
+  }
 
     /* section5 */
 
