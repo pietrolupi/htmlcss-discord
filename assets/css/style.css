@@ -4,41 +4,23 @@
   box-sizing: border-box;
   
 }
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 
 /* DEBUG  */
-* {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    font-size: large;
-}
-  header {
-    background-color:aquamarine;
-    height: 85px;
-  }
+
+ 
 
   .container-header > div{
-    height: 50px;
-    background-color: goldenrod;
-    border: 2px dashed black;
     width: 25%;
-    line-height: 50px;
     
   }
   .container-header > nav {
-    height: 50px;
-    background-color: goldenrod;
-    border: 2px dashed black;
-    width: 50%;
-    flex-flow: row;
-    line-height: 50px;
+    width: 50%;  
   }
 
-  section:first-child {
-    background-color: darkblue;
-    height: 520px;
-  }
 
   .box-1 {
     background-color: darkorchid;
@@ -113,12 +95,24 @@
     line-height: 40px;
   }
 /* DEBUG */
+/* GENERAL */
 
+main {
+  padding-top: 85px;  /* !!!!!!!!! SOSTITUISCI CON ALTEZZA FINALE HEADER riferimento a STICKY*/
+}
+
+  a {
+    text-decoration: none;
+  }
+ 
 /* HEADER */
   header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#255ee9;
+    height: 85px;
+    
   }
 
   .sticky {
@@ -126,16 +120,42 @@
     top: 0;
     width: 100%;
   }
-  main {
-    padding-top: 85px;  /* !!!!!!!!! SOSTITUISCI CON ALTEZZA FINALE HEADER */
-  }
+
   .container-header {
     max-width: 1400px;
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .logo-header>img {
+    width: 130px;
+    padding-top: 5px;
+  }
+  
+  
+  nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
     
+  }
+  nav>ul>li>a {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0 20px;
+  }
+  
+  .login {
+    background-color: white;
+    margin-left: 210px;
+    padding: 10px 15px;
+    color: black;
+  }
+  .btn {
+    border-radius: 20px;
   }
 
 /* MAIN */
@@ -162,6 +182,13 @@
     }
 
     /* section1 */
+  
+  section:first-child {
+      background-image: url(../img/jumbo.png);
+      height: 520px;
+      background-position: center;
+      background-size: cover;
+    }
 
   .small-container { 
     display: flex;
