@@ -46,7 +46,7 @@ body{
 
   
   .footer-menu {
-    background-color: aqua;
+    background-color: darkgray;
     border: 2px dashed white;
     height: 600px;
    
@@ -305,4 +305,23 @@ body{
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 20px;
+  }
+  .footer-menu>ul>li:first-child>a {
+    color: #7186d2 ;
+  }
+  .footer-menu>ul>li>a {
+    color: white;
+    font-size: 1.2rem;
+  }
+  .footer-menu>ul {
+    list-style: none;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+
+  }
+  .footer-menu>ul>li{
+    padding: 20px 0;
   }
