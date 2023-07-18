@@ -22,15 +22,6 @@ body{
     background-color: lightgray;
   }
 
-  .big-box {
-    background-color: cornflowerblue;
-    border: 2px dashed black;
-  }
-
-  .small-box {
-    background-color: pink;
-    border: 2px dashed black;
-  }
 
   .box-8 {
     height: 950px;
@@ -80,7 +71,7 @@ body{
 
 main {
   padding-top: 85px;  /* !!!!!!!!! SOSTITUISCI CON ALTEZZA FINALE HEADER riferimento a STICKY*/
-}
+  }
 
   a {
     text-decoration: none;
@@ -134,7 +125,6 @@ main {
     color: white;
     font-weight: 500;
     font-size: 1.1rem;
-    padding: 0 20px;
   }
   
   .login {
@@ -173,7 +163,6 @@ main {
       height: 630px;
       margin: 0 auto;
       padding: 50px 0;
-      line-height: 630px;
       height: 100%;
     }
 
@@ -219,9 +208,23 @@ main {
     font-size: 1.4rem;
     padding-bottom: 50px; 
   }
-
+  
   .box-1>a {
     margin: 0 30px;
+  }
+    /* section2-3-4 */
+  .small-box {
+    padding: 30px 45px;
+    
+  }
+
+  .small-box>h2 {
+    font-size: 3rem;
+  }
+  .small-box>p {
+    font-size: 1.4rem;
+    padding-top: 50px;
+    line-height: 1.5em;
   }
 
     /* section5 */
