@@ -10,7 +10,16 @@ body{
 
 
 /* DEBUG  */
-
+.general-container{
+  min-width: 1200px
+}
+.container-header{
+  min-width: 790px;
+}
+.small-container {
+  
+  min-width: 760px;
+}
   section:nth-child(2),
   section:nth-child(3),
   section:nth-child(4) {
@@ -22,17 +31,6 @@ body{
     background-color: lightgray;
   }
 
-
-  .box-8 {
-    height: 950px;
-    width: 100%;
-    background-color: darkgreen;
-    line-height: 950px;
-    font-size: 100px;
-  }
-  section:nth-child(5) {
-    height: 1000px;
-  }
 
   footer {
     background-color: #23272a;
@@ -69,14 +67,27 @@ body{
 /* DEBUG */
 /* GENERAL */
 
-main {
+  main {
   padding-top: 85px;  /* !!!!!!!!! SOSTITUISCI CON ALTEZZA FINALE HEADER riferimento a STICKY*/
   }
 
   a {
     text-decoration: none;
   }
- 
+ .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .column {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .row>h2 {
+  width: 100%;
+ }
 /* HEADER */
 
   header {
@@ -118,7 +129,7 @@ main {
   nav>ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
   }
   nav>ul>li>a {
@@ -228,7 +239,6 @@ main {
   }
 
     /* section5 */
-
  
   .big-container { 
       display: flex;
@@ -238,8 +248,31 @@ main {
       max-width: 1400px;
       margin: 0 auto;
       height: 100%;
+      padding-top: 150px;
+      padding-bottom: 70px;
+    }
+
+    .box-8 {
+      height: 100%;
+      width: 100%;
+      font-size: 2.6rem;
+      text-align: center;
+    }
+    .big-img {
+      width: 1500px;
+    }
+    .box-8>p {
+      padding-top: 30px;
+      font-size: 1.4rem;
+      line-height: 1.5em;
     }
     
+    .bg-stars {
+      text-align: center;
+      background-image: url(../img/stars.svg);
+      background-size: 100%;
+      background-position: ;
+    }
     /* footer */
 
   .container-footer-top { 
