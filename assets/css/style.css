@@ -5,10 +5,26 @@
   
 }
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
+.wavy {
+  background-image: url(../img/wave.svg);
+  background-size: cover;
+  
+}
+.mask {
+  background-color: rgba(255, 255, 255, 0.907);
+}
 
+.reverse {
+  background-image: url(../img/wave.svg);
+  transform: scaleY(-1);
+}
+.rev-fix {
+  transform: scaleY(-1);
+}
 /* DEBUG  */
 .general-container{
   min-width: 1200px
@@ -20,17 +36,8 @@ body{
   
   min-width: 760px;
 }
-  section:nth-child(2),
-  section:nth-child(3),
-  section:nth-child(4) {
-    height: 630px; 
-    gap: 0px;
-  }
-  section:nth-child(3),
-  section:nth-child(5) {
-    background-color: lightgray;
-  }
-
+ 
+  
 
   footer {
     background-color: #23272a;
@@ -43,7 +50,7 @@ body{
 /* GENERAL */
 
   main {
-  padding-top: 85px;  /* !!!!!!!!! SOSTITUISCI CON ALTEZZA FINALE HEADER riferimento a STICKY*/
+  padding-top: 85px;
   }
 
   a {
@@ -266,9 +273,12 @@ body{
 
   .footer-social-links{
     width: 30%;
+    min-width: 240px;
+
   }
   .footer-menu {
-    width: calc(70% / 4)
+    width: calc(70% / 4);
+    min-width: 120px;
   }
 
 
